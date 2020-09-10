@@ -1,0 +1,82 @@
+body
+{
+    margin: 0;
+    padding:0;
+}
+h1
+{
+    text-align: center;
+    margin-top: 1em;
+}
+
+
+.box
+{
+    background-color: darkgrey;
+    width: 30%;
+    float: left;
+    margin: .5em;
+    border: solid black;
+}
+
+h3
+{
+    position: relative;
+    float: right;
+    top: -20px;
+    text-align: center;
+    background-color: darkorange;
+    width:80px;
+    border: black .15em solid;
+    padding: .25em .5em;
+}
+.color
+{
+    background-color: coral;
+}
+p
+{
+    margin-top: 2em;
+    padding: 0 .5em;
+}
+@media (min-width:992px)
+{
+    main{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .box
+    {
+
+        width:30%;
+        float: center;
+        
+    }
+}
+@media (max-width:991px) and (min-width:786px)
+{
+    main{
+        max-width: 890px;
+        margin:0 auto;
+    }
+    .box
+    {
+        width:44%;
+    }
+    .box-lg
+    {
+        width: 80%;
+    }
+}
+@media(max-width:785px)
+{
+    main{
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .box
+    {
+        margin-right: 2em;
+        width: 80%;
+    }
+}
